@@ -114,6 +114,13 @@ footer {
 }
 
 
+/*SUB PAGES */
+.page-sub .hero {
+    background-color:rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
 /* COURSES SECTION */
 
 
@@ -131,4 +138,19 @@ footer {
 
 .courses h3 {
     text-align: center;
+}
+
+
+/* COURSE PAGES WITH MULTIPLE PROJECT LISTS */
+
+
+.coursework {
+    padding: 3em 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 2em;
 }
