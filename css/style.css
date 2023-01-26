@@ -66,7 +66,7 @@ header a:hover {
 
 
 main {
-    background:rgb(130, 0, 109)
+    background:rgb(253, 250, 248)
 }
 
 
@@ -114,6 +114,8 @@ padding: 6em 1 em;
 
 
 /* COURSES SECTION */
+
+
 .courses {
     padding: 6em 1em;
     display: grid;
