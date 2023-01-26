@@ -4,7 +4,7 @@ body { margin: 0 }
 
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, 0.8); }
-a { color: rgba(0, 102, 204, 1); }
+a { color: rgb(0, 1, 3); }
 a:hover { color: rgb(252, 250, 250); }
 
 /* GLOBAL TYPOGRAPHY */
@@ -66,7 +66,7 @@ header a:hover {
 
 
 main {
-    background:rgb(253, 250, 248)
+    background-color: rgb(83, 80, 80);
 }
 
 
@@ -94,7 +94,8 @@ footer {
 /* HERO SECTION */
 
 
-.hero {background-color: brown;
+.hero 
+{background-color: rgb(245, 104, 10);
 text-align: center;
 color: antiquewhite;
 padding: 6em 1 em;
