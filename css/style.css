@@ -28,7 +28,7 @@ header {
 }
 
 header a {
-    color: rgb(83, 80, 80);
+    color: rgb(141, 5, 5);
     text-decoration: underline;
 }
 
@@ -66,7 +66,7 @@ header a:hover {
 
 
 main {
-    background-color: rgb(83, 80, 80);
+    background-color: rgb(164, 26, 26);
 }
 
 
@@ -154,3 +154,66 @@ footer {
 .project {
     margin: 2em;
 }
+
+/* LAYOUT */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 3em 1em;
+}
+
+/* SIDEBAR/ASIDE */
+aside {
+    padding: 2em 0;
+}
+
+@media (min-width: 768px) {
+    .two-col sidebar {
+        display: grid;
+        grid-template-columns: 20em auto;
+    }
+    .two-col-sidebar aside {
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        margin: 0 3em 2em 0;
+        padding: .3em 2em 0 0;
+    }
+}
+
+/* CODE BLOCKS */
+
+pre code {
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 1em 3em;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.markup-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 1em 3em;
+    margin-bottom: 1em;
+}
+
+/* DEFINITON LISTS */
+dt {
+    font-weight: bold;
+    margin-top: 1em;
+}
+dd {
+    margin: 0;
+}
+
+/* FOR DEV PURPOSES */
+/* body * {
+    background-color: rgba(0,0,0,0.5) !important;
+    border: 1 px solid rgba(0,0,0,.1) !important;
+    color: rgba(0,0,0,.5) !important
+} */
