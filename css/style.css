@@ -115,6 +115,11 @@ footer {
 
 
 /*SUB PAGES */
+.page-home .hero {
+    background-image: url(../img/alamoanasunset.jpg) ;
+    background-size: cover;
+    background-position: center 60%;
+}
 .page-sub .hero {
     background-color:rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.8);
