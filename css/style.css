@@ -114,17 +114,22 @@ footer {
 }
 
 
-/*SUB PAGES */
+/*SUB PAGES AND CUSTOM PAGE STYLING*/
 .page-home .hero {
     background-image: url(../img/alamoanasunset.jpg) ;
     background-size: cover;
     background-position: center 60%;
 }
+
 .page-sub .hero {
     background-color:rgba(0, 0, 0, 0.1);
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(244, 242, 242, 0.8);
 }
-
+.page-notes .hero {
+    background-image: url(../img/Alasunsethorizon.jpg) ;
+    background-size: cover;
+    background-position: center 60%;
+}
 
 /* COURSES SECTION */
 
