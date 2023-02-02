@@ -19,7 +19,7 @@ body {
 
 
 header {
-    background-color: rgb(245, 104, 10);
+    background-color: rgba(245, 104, 10 );
     color: rgba(138, 2, 2, 0.8);
     padding: 1em;
     display: grid;
@@ -127,6 +127,11 @@ footer {
 }
 .page-notes .hero {
     background-image: url(../img/Alasunsethorizon.jpg) ;
+    background-size: cover;
+    background-position: center 60%;
+}
+.page-art128 .hero {
+    background-image: url(../img/mountainsunset.jpg) ;
     background-size: cover;
     background-position: center 60%;
 }
