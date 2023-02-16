@@ -27,3 +27,11 @@
         #SITE NAVIGATION
             #TOGGLE-NAV (Default for Small Screens)
 --------------------------------- */
+
+
+/*  Typorgaphy */
+
+body {
+    font-size: 87.5%; /* 14px */
+    font-family: Helvetica, Arial, sans-serif;
+}
