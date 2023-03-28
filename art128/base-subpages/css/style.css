@@ -460,3 +460,11 @@ article p:first-of-type:first-letter {
         content: "\2715";
     }
 }
+
+/* CARDS */
+
+.card {
+    background-color: rgb(237, 95, 34);
+    padding: 1em 2em;
+    border-radius: 1em;
+}
