@@ -11,13 +11,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    //TOGGLE ACCORDIAN VIA ADDING/REMOVING A CLASS
-    var acc = document.querySelectorAll('.accordian');
-    var i;
-    for (i = 0; i < acc.length; i++) {
-        acc[i].getElementsByTagName('h4')[0].onclick = function () {
-            this.parentElement.classList.toggle("open");
-        }
-    }
+    //CLOSE MENU NAV WHEN YOU CLICK ON A NAV LINK
+    const navbuttons = document.querySelectorAll('.site-header .site-nav a');
+    for(let i = 0; i < navbuttons.length; i++) {
+       navbuttons[i].addEventListener('click', function () {
+        menunav.setAttribute('data-navstate', 'closed');
+       }
+    )};
+
+
 
 })
