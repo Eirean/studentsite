@@ -501,12 +501,20 @@ form {
         color: white;
     }
     .toggle-nav[data-navstate="closed"] ul {
-        height: 0;
+        /* height: 0; */
+        max-height: 0;
         overflow: hidden;
+        opacity: 0;
+        transition: max-height .4s cubic-bezier(0,1,1,1), 
+                    opacity .4s linear;
     }
     .toggle-nav[data-navstate="open"] ul {
-        height: auto;
+        /* height: auto; */
+        max-height: 100vh;
         overflow: visible;
+        opacity: 1;
+        transition: max-height .4s cubic-bezier(1,0,1,1), 
+                    opacity .4s linear .2s;
     }
 
     /* NAVICON */
