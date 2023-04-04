@@ -117,7 +117,7 @@ footer {
 
 /*SUB PAGES AND CUSTOM PAGE STYLING*/
 .page-home .hero {
-    background-image: url(../images/alamoanasunset.jpg) ;
+    background-image: url(../images/alamoanasunset.jpg);
     background-size: cover;
     background-position: center 60%;
 }
@@ -127,12 +127,12 @@ footer {
     color: rgba(244, 242, 242, 0.8);
 }
 .page-notes .hero {
-    background-image: url(../images/Alasunsethorizon.jpg) ;
+    background-image: url(../images/Alasunsethorizon.jpg);
     background-size: cover;
     background-position: center 60%;
 }
 .page-art128 .hero {
-    background-image: url(../images/mountainsunset.jpg) ;
+    background-image: url(../images/mountainsunset.jpg);
     background-size: cover;
     background-position: center 60%;
 }
