@@ -121,7 +121,7 @@ img {
 .button,
 button {
     font-size: inherit;
-    font-family: grotesk;
+    font-family: 'neue-haas-grotesk-text', sans-serif;
     line-height: 1;
     background-color: rgb(80, 80, 85);
     border: 1px solid rgb(255, 255, 255);
@@ -463,16 +463,16 @@ form {
 /* HERO */
 
 .hero {
-    background-image: url(../images/plumeria.jpg);
+    background-image: url(../images/fosterhero.jpg);
     background-size: cover;
-    background-position: center 60%;
+    background-position: center 5%;
     padding: 6em 4%;
     background-color: gray;
-    text-align: center;
+    text-align: right;
 }
 .hero p {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 20px;
 }
 .hero.full-width {
     margin-top: 0;
@@ -571,8 +571,9 @@ form {
 
 .site-header.sticky {
     position: fixed;
+    z-index: 100;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: #008156;
 }
 
 .site-header.sticky + main {
@@ -580,11 +581,19 @@ form {
 }
 
 #about {
-    background: rgba(0,0,0,.5);
+    color: #ccc;
+    background-color: rgba(255,0,0,.5);
+    background-image: url(../images/Flowerred.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #contact {
+    color: rgb(0, 0, 0);
     background: rgba(0,0,0,.1);
+    background-image: url(../images/purpleflower.jpg);
+    background-size: cover;
 }
 
 /* Vertical Media Query add height/padding to bottom of contact section only for large screens - Romina */
