@@ -573,7 +573,8 @@ form {
     position: fixed;
     z-index: 100;
     width: 100%;
-    background-color: #008156;
+    background-image: url(../images/Patyjewicz\,\ Andrew\ Comp\ B-4.jpg);
+    background-position: 10%;
 }
 
 .site-header.sticky + main {
