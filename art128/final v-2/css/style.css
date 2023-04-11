@@ -466,7 +466,7 @@ form {
 .hero {
     background-image: url(../images/fosterhero.jpg);
     background-size: cover;
-    background-position: center 5%;
+    background-position: left 5%;
     padding: 6em 4%;
     background-color: gray;
     text-align: right;
@@ -478,6 +478,10 @@ form {
 .hero.full-width {
     margin-top: 0;
     margin-bottom: 0;
+}
+.hero .logowrapper {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 2em;
 }
 
 /* TOGGLE NAV */
