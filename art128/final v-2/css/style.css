@@ -336,6 +336,7 @@ body.demo::before {
 /* SECTIONS */
 section {
     padding: 3em 0;
+    min-height: 100vh;
 }
 
 /* SUB PAGES */
@@ -527,11 +528,13 @@ form {
 
     /* NAVICON */
     .toggle-nav .site-nav .menu-button.navicon {
+        position: absolute;
         border: none;
         color: white;
         padding: 0;
     }
     .toggle-nav .site-nav .menu-button.navicon::after {
+        position: absolute;
         border: none;
         content: "\2630";
         display: inline-block;
@@ -573,13 +576,11 @@ form {
     position: fixed;
     z-index: 100;
     width: 100%;
-    background-image: url(../images/Patyjewicz\,\ Andrew\ Comp\ B-4.jpg);
-    background-position: 10%;
 }
 
-.site-header.sticky + main {
+/* .site-header.sticky + main {
     padding-top: 3em;
-}
+} */
 
 #about {
     color: #ccc;
