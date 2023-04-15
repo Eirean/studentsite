@@ -110,6 +110,11 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+.hide-visually {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
 
 /*  IMAGES */   
 img {
@@ -310,12 +315,18 @@ body.demo::before {
 }
 
 /* SITE NAV */
+.site-nav {
+    height: 100%;
+}
 .site-nav ul {
+    /* background-color: #c02828; */
+    height: 100%;
     margin: 0;
-    padding: 0;
+    padding: .5px;
     list-style: none;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .site-nav a {
@@ -464,23 +475,28 @@ form {
 /* HERO */
 
 .hero {
-    background-image: url(../images/fosterhero.jpg);
+    background-image: url(../images/plumeria.jpg);
     background-size: cover;
     background-position: left 5%;
-    padding: 6em 4%;
-    background-color: gray;
-    text-align: right;
+    /* padding: 6em 4%; */
+    background-color: black;
 }
-.hero p {
+/* .hero p {
     margin-left: auto;
     margin-right: 20px;
-}
+} */
 .hero.full-width {
     margin-top: 0;
     margin-bottom: 0;
 }
 .hero .logowrapper {
-    background-color: rgba(0, 0, 0, .5);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 2em;
+}
+.hero.top-nav {
+    display: block;
+    background-color: #666;
     padding: 2em;
 }
 
@@ -504,7 +520,6 @@ form {
     .toggle-nav .site-nav .menu-button::selection {
         background-color: rgba(255,255,255,0);
     }
-    
     .toggle-nav .site-nav ul {
         display: block;
         text-align: center;
@@ -546,7 +561,6 @@ form {
         margin: 0;
         color: rgba(0,0,0,.8);
         font-size: 1.5em;
-       
     }
     .toggle-nav[data-navstate="open"] .site-nav .menu-button.navicon::after {
         content: "\2715";
@@ -586,6 +600,26 @@ form {
     padding-top: 3em;
 } */
 
+/* ONTOP HEADER - WORKS WHEN .SITE-HEADER HAS THE CLASS .ONTOP */
+.site-header.ontop  {
+    font-family: 'garamond-premier-pro-display', georgia, serif;
+    font-size: 20px;
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    /* background-color: #c02828; */
+}
+@media(min-width: 768px) {
+    .site-header.ontop  {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        padding: 2em;
+        text-align: center;
+        background-color: rgba(255, 255, 255, .5);
+    }
+}
 #about {
     color: #ccc;
     background-color: rgba(255,0,0,.5);
