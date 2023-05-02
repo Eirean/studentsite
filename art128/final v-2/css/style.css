@@ -35,7 +35,8 @@
 /*  Typogaphy  - BASE BODY */
 
 body {
-    font-size: 87.5%; /* 14px */
+    font-size: 87.5%;
+    /* 14px */
     font-family: 'neue-haas-grotesk-text', sans-serif;
     line-height: 1.5;
     color: rgba(0, 0, 0, .8);
@@ -47,54 +48,67 @@ body {
     18, 36, 24, 21, 18, 16
 */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'garamond-premier-pro-display', georgia, serif;
-    margin: .5em 0;}
+    margin: .5em 0;
+}
 
 h1 {
-    font-size: 3em; /* 48px */
+    font-size: 3em;
+    /* 48px */
     line-height: 1;
 }
 
 h2 {
     font-family: 'garamond-premier-pro-display', georgia, serif;
-    font-size: 2.25em; /* 36px */
+    font-size: 2.25em;
+    /* 36px */
     line-height: 1.1;
 }
 
 h3 {
-    font-size: 1.5em; /* 24px */
+    font-size: 1.5em;
+    /* 24px */
     line-height: 1.2;
 }
 
 h4 {
-    font-size: 1.3125em; /* 21px */
+    font-size: 1.3125em;
+    /* 21px */
     line-height: 1.3;
 }
 
 h5 {
-    font-size: 1.125em; /* 18px */
+    font-size: 1.125em;
+    /* 18px */
     line-height: 1.4;
 }
 
 h6 {
-    font-size: 1em; /* 16px */
+    font-size: 1em;
+    /* 16px */
     line-height: 1.5;
 }
 
 /* PARAGRAPHS */
-p{
+p {
     margin: .5em 0;
     max-width: 38em;
 }
 
 /*  LINKS */
-a{
+a {
     color: rgba(0, 0, 255, .8);
     text-decoration: none;
 }
+
 a:hover {
-    color:rgba(0, 0, 153, 1);
+    color: rgba(0, 0, 153, 1);
     text-decoration: underline;
 }
 
@@ -102,24 +116,28 @@ a:hover {
 .text-centered {
     text-align: center;
 }
+
 .full-width {
     max-width: none;
     width: 100%;
 }
+
 .horiz-center {
     margin-left: auto;
     margin-right: auto;
 }
+
 .hide-visually {
     position: absolute;
     top: -9999px;
     left: -9999px;
 }
+
 .text-two-col {
     columns: 2;
 }
 
-/*  IMAGES */   
+/*  IMAGES */
 img {
     max-width: 100%;
     height: auto;
@@ -156,15 +174,20 @@ button:hover {
     color: black
 }
 
-.button.alt:hover{
+.button.alt:hover {
     background-color: rgb(0, 0, 0);
     color: rgba(255, 255, 255, 1);
 }
 
 /*  LAYOUT */
 
-* {box-sizing: border-box; }
-body {margin: 0;}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
 
 /* CONTAINER */
 .container {
@@ -173,31 +196,35 @@ body {margin: 0;}
     padding: 0 4%
 }
 
-/* MEDIA QUERIES */ 
+/* MEDIA QUERIES */
 
 @media(min-width: 768px) {
-/* TABLET SIZE STYLING GOES HERE */
+    /* TABLET SIZE STYLING GOES HERE */
 }
 
 @media(min-width: 1050px) {
     body {
-    font-size: 100%; /* 16px */
+        font-size: 100%;
+        /* 16px */
     }
 }
 
 @media(min-width: 1250px) {
     body {
-    font-size: 112.5%; /* 18px */
+        font-size: 112.5%;
+        /* 18px */
     }
+
     .container {
         max-width: 1200px;
     }
 }
 
-/*  FOR DEMO PURPOSES ONLY  */  
+/*  FOR DEMO PURPOSES ONLY  */
 body.demo {
     padding-top: 2em;
 }
+
 body.demo::before {
     content: "Small Screen (Mobile) Less Than 768px";
     background-color: #933;
@@ -211,22 +238,22 @@ body.demo::before {
 
 @media(min-width: 768px) {
     body.demo::before {
-    background-color: #bcb83d;
-    content: "Mid-Size (Tablet) Screen 768px to 1050px";
+        background-color: #bcb83d;
+        content: "Mid-Size (Tablet) Screen 768px to 1050px";
     }
 }
 
 @media(min-width: 1050px) {
     body.demo::before {
-    background-color: #693;
-    content: "Large (Notebook) Screen 1050px to 1250px"
+        background-color: #693;
+        content: "Large (Notebook) Screen 1050px to 1250px"
     }
 }
 
 @media(min-width: 1250px) {
     body.demo::before {
-    background-color: #09c;
-    content: "Extra Large (Desktop) Screen 1250px +"
+        background-color: #09c;
+        content: "Extra Large (Desktop) Screen 1250px +"
     }
 }
 
@@ -240,6 +267,7 @@ aside {
         display: grid;
         grid-template-columns: 20em auto;
     }
+
     .column one-third aside {
         border-right: 1px solid rgba(0, 0, 0, 0.1);
         margin: 0 3em 2em 0;
@@ -249,9 +277,9 @@ aside {
 
 /* SEMANTIC GRID SYSTEM */
 
-.row > .column {
+.row>.column {
     margin-bottom: 2%;
-} 
+}
 
 @media(min-width: 768px) {
 
@@ -262,29 +290,29 @@ aside {
         margin-right: -2%;
     }
 
-    .row > .column {
-    flex-grow: 1;
-    margin-left: 2%;
-    margin-right: 2%;
+    .row>.column {
+        flex-grow: 1;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
-    .row > .column.one-half {
+    .row>.column.one-half {
         max-width: 46%;
     }
 
-    .row > .column.one-third {
+    .row>.column.one-third {
         max-width: 29.333%;
     }
-    
-    .row > .column.two-thirds {
+
+    .row>.column.two-thirds {
         max-width: 62.666%;
     }
-    
-    .row > .column.one-fourth {
+
+    .row>.column.one-fourth {
         max-width: 21%;
     }
 
-    .row > .column.centered {
+    .row>.column.centered {
         margin-left: auto;
         margin-right: auto;
     }
@@ -316,13 +344,14 @@ aside {
 }
 
 /*STYLING FOR BOTH HEADER AND FOOTER */
-.site-header a, 
+.site-header a,
 .site-footer a {
     color: rgba(0, 0, 0, .8);
 }
+
 .site-header a:hover,
 .site-footer a:hover {
-    color: rgba(0,0,0,1);
+    color: rgba(0, 0, 0, 1);
     text-decoration: none;
 }
 
@@ -338,6 +367,7 @@ aside {
 .site-nav {
     height: 100%;
 }
+
 .site-nav ul {
     /* background-color: #c02828; */
     height: 100%;
@@ -354,7 +384,7 @@ aside {
     padding: 1em;
 }
 
-.site-nav .menu-button  {
+.site-nav .menu-button {
     display: none;
 }
 
@@ -370,6 +400,8 @@ section {
     min-height: 100vh;
 }
 
+
+
 /* SUB PAGES */
 
 article {
@@ -378,8 +410,8 @@ article {
     margin-right: auto;
 }
 
-article h1, 
-article h1 + .subhead, 
+article h1,
+article h1+.subhead,
 article .date {
     text-align: center;
 }
@@ -402,16 +434,16 @@ article .date {
     margin-bottom: 3em;
 }
 
-article p + h1,
-article p + h2,
-article p + h3,
-article p + h4,
-article p + h5,
-article p + h6 {
+article p+h1,
+article p+h2,
+article p+h3,
+article p+h4,
+article p+h5,
+article p+h6 {
     margin-top: 1.5em;
 }
 
- /* article p:first-of-type {
+/* article p:first-of-type {
     font-size: 1.4em;
     line-height: 1.3;
  }*/
@@ -431,14 +463,14 @@ p.dropcap::first-letter {
 
 form {
     margin: 1.75em 0;
-  }
-  
-  form label {
+}
+
+form label {
     display: block;
-  }
-  
-  form input,
-  form textarea {
+}
+
+form input,
+form textarea {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1em;
     line-height: 1.15em;
@@ -448,16 +480,16 @@ form {
     color: #666;
     padding: 0.25em;
     border: 1px solid #ccc;
-  }
-  
-  form textarea {
+}
+
+form textarea {
     border: 1px solid #ccc;
     min-height: 6em;
-  }
-  
-  form input[type=button],
-  form input[type=submit],
-  form input[type=reset] {
+}
+
+form input[type=button],
+form input[type=submit],
+form input[type=reset] {
     width: auto;
     background-color: #036;
     border: 1px solid #036;
@@ -468,16 +500,17 @@ form {
     border-radius: 0.32em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-  }
-  form input[type=button]:hover,
-  form input[type=submit]:hover,
-  form input[type=reset]:hover {
+}
+
+form input[type=button]:hover,
+form input[type=submit]:hover,
+form input[type=reset]:hover {
     background-color: #003;
     border-color: #003;
-  }
-  
-  /* Style the submit button */
-  input[type=submit] {
+}
+
+/* Style the submit button */
+input[type=submit] {
     width: 100%;
     background-color: #d97913;
     color: white;
@@ -486,12 +519,12 @@ form {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  /* Add a background color to the submit button on mouse-over */
-  input[type=submit]:hover {
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
     background-color: #c02828;
-  }
+}
 
 /* HERO */
 
@@ -502,6 +535,7 @@ form {
     /* padding: 6em 4%; */
     background-color: black;
 }
+
 /* .hero p {
     margin-left: auto;
     margin-right: 20px;
@@ -510,11 +544,13 @@ form {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .hero .logowrapper {
     display: inline-block;
     background-color: rgba(0, 0, 0, .8);
     padding: 2em;
 }
+
 .hero.top-nav {
     display: block;
     background-color: #666;
@@ -525,11 +561,13 @@ form {
 
 @media (max-width: 767px) {
     .toggle-nav .site-id {
-        position:absolute;
+        position: absolute;
     }
+
     .toggle-nav .site-nav {
-      text-align: right;
+        text-align: right;
     }
+
     .toggle-nav .site-nav .menu-button {
         display: block;
         display: inline-block;
@@ -538,32 +576,37 @@ form {
         margin: 0;
         border: 1px solid black;
     }
+
     .toggle-nav .site-nav .menu-button::selection {
-        background-color: rgba(255,255,255,0);
+        background-color: rgba(255, 255, 255, 0);
     }
+
     .toggle-nav .site-nav ul {
         display: block;
         text-align: center;
     }
+
     .toggle-nav .site-nav a:hover {
         background-color: rgba(0, 0, 153, 1);
         color: white;
     }
+
     .toggle-nav[data-navstate="closed"] ul {
         /* height: 0; */
         max-height: 0;
         overflow: hidden;
         opacity: 0;
-        transition: max-height .4s cubic-bezier(0,1,1,1), 
-                    opacity .4s linear;
+        transition: max-height .4s cubic-bezier(0, 1, 1, 1),
+            opacity .4s linear;
     }
+
     .toggle-nav[data-navstate="open"] ul {
         /* height: auto; */
         max-height: 100vh;
         overflow: visible;
         opacity: 1;
-        transition: max-height .4s cubic-bezier(1,0,1,1), 
-                    opacity .4s linear .2s;
+        transition: max-height .4s cubic-bezier(1, 0, 1, 1),
+            opacity .4s linear .2s;
     }
 
     /* NAVICON */
@@ -573,6 +616,7 @@ form {
         color: white;
         padding: 0;
     }
+
     .toggle-nav .site-nav .menu-button.navicon::after {
         position: absolute;
         border: none;
@@ -580,9 +624,10 @@ form {
         display: inline-block;
         padding: 0em;
         margin: 0;
-        color: rgba(0,0,0,.8);
+        color: rgba(0, 0, 0, .8);
         font-size: 1.5em;
     }
+
     .toggle-nav[data-navstate="open"] .site-nav .menu-button.navicon::after {
         content: "\2715";
     }
@@ -599,19 +644,19 @@ form {
     align-items: center;
 }
 
-.sub-nav ul{
+.sub-nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     /* height: 100vh; */
 }
 
-.sub-nav li{
+.sub-nav li {
     padding: 1em;
 
 }
 
-.sub-nav a{
+.sub-nav a {
     background-color: #000000;
     color: #000000;
     width: 20px;
@@ -656,7 +701,7 @@ form {
 } */
 
 /* ONTOP HEADER - WORKS WHEN .SITE-HEADER HAS THE CLASS .ONTOP */
-.site-header.ontop  {
+.site-header.ontop {
     font-family: 'garamond-premier-pro-display', georgia, serif;
     font-size: 20px;
     /* position: absolute;
@@ -664,8 +709,9 @@ form {
     right: 0; */
     /* background-color: #c02828; */
 }
+
 @media(min-width: 768px) {
-    .site-header.ontop  {
+    .site-header.ontop {
         position: absolute;
         top: 0;
         right: 0;
@@ -675,15 +721,16 @@ form {
         background-color: rgba(255, 255, 255, .5);
     }
 }
+
 #about {
     color: #ccc;
-    background-color: rgba(255,0,0,.5);
+    background-color: rgba(255, 0, 0, .5);
     background-image: url(../images/Flowerred.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 6em 0;
-   
-    
+
+
 }
 
 #about-cg {
@@ -694,7 +741,7 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 6em 0;
-   
+
 }
 
 #about-cg .top-banner {
@@ -703,6 +750,7 @@ form {
     background-size: cover;
     margin-bottom: 3em;
 }
+
 /* #about-cg .top-banner img {
     width: 100%;
     height: 100%;
@@ -711,19 +759,31 @@ form {
 #gardens {
     color: #ccc;
     /* background-color: rgba(255,0,0,.5); */
-    background-image: url(../images/hothouse.png); 
+    background-image: url(../images/hothouse.png);
     color: black;
     background-position: 50% 70%;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 6em 0;
-   
+
 }
+
 #contact {
     color: rgb(0, 0, 0);
-    background: rgba(0,0,0,.1);
+    background: rgba(0, 0, 0, .1);
     background-image: url(../images/purpleflower.jpg);
     background-size: cover;
+}
+
+#atimeline {
+    color: #ccc;
+    /* background-color: rgba(255,0,0,.5); */
+    background-image: url(../images/Patyjewicz\,\ Andrew-FP-SPRING\ 2022_Gecko\ \ \(26\).jpg);
+    color: black;
+    background-position: 20% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6em 0;
 }
 
 /* Vertical Media Query add height/padding to bottom of contact section only for large screens - Romina */
@@ -732,4 +792,143 @@ form {
     #contact {
         padding-bottom: 20em;
     }
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around content */
+.tcontainer {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+
+/* The circles on the timeline */
+.tcontainer::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: rgb(164, 161, 161);
+    border: 4px solid #156525;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .tcontainer {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .tcontainer::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    display: flex;
+}
+
+.section-wrapper {
+    margin-left: -56px;
+    width: calc(100% + 56px);
 }
