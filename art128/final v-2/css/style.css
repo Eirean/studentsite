@@ -759,7 +759,7 @@ input[type=submit]:hover {
 #gardens {
     color: #ccc;
     /* background-color: rgba(255,0,0,.5); */
-    background-image: url(../images/hothouse.png);
+    /* background-image: url(../images/hothouse.png); */
     color: black;
     background-position: 50% 70%;
     background-size: cover;
@@ -780,6 +780,7 @@ input[type=submit]:hover {
     /* background-color: rgba(255,0,0,.5); */
     background-image: url(../images/Patyjewicz\,\ Andrew-FP-SPRING\ 2022_Gecko\ \ \(26\).jpg);
     color: black;
+    background-color: #666;
     background-position: 20% 10%;
     background-size: cover;
     background-repeat: no-repeat;
