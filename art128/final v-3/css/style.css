@@ -759,9 +759,9 @@ input[type=submit]:hover {
 #gardens {
     color: #ccc;
     /* background-color: rgba(255,0,0,.5); */
-    /* background-image: url(../images/hothouse.png); */
+    background-image: url(../images/hothouse.png);
     color: black;
-    background-position: 50% 70%;
+    /* background-position: 50% 70%; */
     background-size: cover;
     background-repeat: no-repeat;
     padding: 6em 0;
