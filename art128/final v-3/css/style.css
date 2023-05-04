@@ -741,6 +741,9 @@ input[type=submit]:hover {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 6em 0;
+    background-image: url(../images/thomasfoster.jpg);
+    background-size: auto;
+    background-position: 8% 48%;
 
 }
 
@@ -766,7 +769,25 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
     padding: 6em 0;
 
+
 }
+
+#programmes {
+    color: #ccc;
+    color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+}
+
+#programmes-cg .top-banner {
+    height: 400px;
+    background-image: url(../images/plumeria.jpg);
+    background-size: cover;
+    margin-bottom: 3em;
+}
+
+
 
 #contact {
     color: rgb(0, 0, 0);
@@ -932,4 +953,22 @@ input[type=submit]:hover {
 .section-wrapper {
     margin-left: -56px;
     width: calc(100% + 56px);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.img-magnifier-container {
+    position: relative;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
 }
