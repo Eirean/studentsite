@@ -143,6 +143,10 @@ img {
     height: auto;
 }
 
+figure {
+    margin: 5em 0;
+}
+
 /* BUTTONS */
 .button,
 button {
@@ -738,12 +742,12 @@ input[type=submit]:hover {
     /* background-color: rgba(255,0,0,.5); */
     /* background-image: url(../images/Flowerred.jpg); */
     color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
     padding: 6em 0;
+    /* background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(../images/thomasfoster.jpg);
     background-size: auto;
-    background-position: 8% 48%;
+    background-position: 8% 48%; */
 
 }
 
@@ -953,6 +957,10 @@ input[type=submit]:hover {
 .section-wrapper {
     margin-left: -56px;
     width: calc(100% + 56px);
+}
+
+.section-wrapper .container {
+    padding-left: 60px;
 }
 
 * {
