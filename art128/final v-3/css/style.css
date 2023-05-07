@@ -782,6 +782,7 @@ input[type=submit]:hover {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 3em;
+    border-style: inset;
 }
 
 #programmes-cg .top-banner {
