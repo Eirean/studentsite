@@ -1,16 +1,32 @@
 /* GLOBAL RESET */
-* { box-sizing: border-box; }
-body { margin: 0 }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
+}
 
 /* GLOBAL COLORS */
-body { color: rgba(245, 104, 10); }
-a { color: rgb(3, 1, 0); }
-a:hover { color: rgb(34, 77, 252); }
+body {
+    color: rgb(10, 77, 245);
+}
+
+a {
+    color: rgba(95, 93, 93, 0.8);
+}
+
+a:hover {
+    color: rgb(34, 77, 252);
+}
 
 /* GLOBAL TYPOGRAPHY */
-body { 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 88.75%; /* 14px */
+body {
+    font-family: "acumin-pro", Helvetica, sans-serif;
+    /* font-family: Helvetica, sans-serif; */
+    font-weight: 400;
+    font-size: 88.75%;
+    /* 14px */
     line-height: 1.4;
 }
 
@@ -19,8 +35,8 @@ body {
 
 
 header {
-    background-color: rgba(245, 104, 10 );
-    color: rgba(138, 2, 2, 0.8);
+    background-color: rgb(28, 28, 177);
+    color: rgba(95, 93, 93, 0.8);
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -28,7 +44,11 @@ header {
 }
 
 header a {
-    color: rgb(141, 5, 5);
+    color: rgba(168, 168, 168, 0.8);
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 88.75%;
+    line-height: 1.4;
     text-decoration: underline;
 }
 
@@ -66,15 +86,15 @@ header a:hover {
 
 
 main {
-    background-color: rgb(164, 26, 26);
+    background-color: rgb(33, 6, 115);
 }
 
 
 /* FOOTER */
 footer {
-    border-top: 1px solid rgba(0,0,0,.05);
+    border-top: 1px solid rgba(0, 0, 0, .05);
     padding: 1em;
-    background-color:rgb(201, 32, 54)
+    background-color: rgb(28, 28, 177)
 }
 
 /* SOCIAL NAV */
@@ -83,7 +103,7 @@ footer {
     padding: 0;
     display: flex;
     justify-content: center;
-    list-style:none;
+    list-style: none;
 }
 
 .social-nav a {
@@ -96,7 +116,7 @@ footer {
 
 
 .hero {
-    background-color: rgb(245, 104, 10);
+    background-color: rgb(18, 10, 245);
     text-align: center;
     color: antiquewhite;
     padding: 6em 1em;
@@ -123,14 +143,16 @@ footer {
 }
 
 .page-sub .hero {
-    background-color:rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     color: rgba(244, 242, 242, 0.8);
 }
+
 .page-notes .hero {
     background-image: url(../images/Alasunsethorizon.jpg);
     background-size: cover;
     background-position: center 60%;
 }
+
 .page-art128 .hero {
     background-image: url(../images/mountainsunset.jpg);
     background-size: cover;
@@ -167,7 +189,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.project {
+.website {
     margin: 2em;
 }
 
@@ -191,6 +213,7 @@ aside {
         display: grid;
         grid-template-columns: 20em auto;
     }
+
     .two-col-sidebar aside {
         border-right: 1px solid rgba(0, 0, 0, 0.1);
         margin: 0 3em 2em 0;
@@ -223,6 +246,7 @@ dt {
     font-weight: bold;
     margin-top: 1em;
 }
+
 dd {
     margin: 0;
 }
