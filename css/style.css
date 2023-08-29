@@ -15,11 +15,11 @@ body {
 }
 
 a {
-    color: rgba(95, 93, 93, 0.8);
+    color: rgba(117, 0, 250, 0.986);
 }
 
 a:hover {
-    color: rgb(34, 77, 252);
+    color: rgb(179, 39, 97);
 }
 
 /* GLOBAL TYPOGRAPHY */
@@ -172,6 +172,12 @@ footer {
     background-image: url(../images/mainbar.jpg);
     background-size: cover;
     background-position: 75%;
+}
+
+.coming-soon {
+
+    color: #888;
+    text-decoration: none;
 }
 
 /* COURSES SECTION */
