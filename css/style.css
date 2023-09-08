@@ -168,6 +168,14 @@ footer {
     background-position: 75%;
 }
 
+.page-art258 .hero {
+    color: #888;
+    background-image: url(../images/makahabridge.jpg);
+    background-size: cover;
+    background-position: 75%;
+
+}
+
 .page-art298 .hero {
     background-image: url(../images/mainbar.jpg);
     background-size: cover;
@@ -271,6 +279,7 @@ dt {
 dd {
     margin: 0;
 }
+
 
 /* FOR DEV PURPOSES */
 /* body * {
