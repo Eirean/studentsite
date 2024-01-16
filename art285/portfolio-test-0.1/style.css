@@ -11,6 +11,13 @@ body {
     margin: 0;
 }
 
+/* GLOBAL MEDIA */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* SITE HEADER */
 
 .site-header {
@@ -71,4 +78,34 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.project-list {
+    padding: var(--space-unit);
+    display: grid;
+    grid-template-columns: repeat(12, 12fr);
+}
+
+.project-list li:nth-child(1) {
+    border: 10px solid red;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.project-list li:nth-child(2) {
+    border: 10px solid red;
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.project-list li:nth-child(3) {
+    border: 10px solid red;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 8;
 }
