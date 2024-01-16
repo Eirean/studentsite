@@ -178,6 +178,13 @@ footer {
 
 }
 
+.page-art285 .hero {
+    color: #888;
+    background-image: url(../images/starfield.jpg);
+    background-size: cover;
+    background-position: 75%;
+}
+
 .page-art298 .hero {
     background-image: url(../images/mainbar.jpg);
     background-size: cover;

@@ -1,0 +1,74 @@
+/* VARIABLES */
+html {
+    --color-body: #efefef;
+    --space-unit: 1em;
+}
+
+/* GLOBAL */
+
+body {
+    background-color: var(--color-body);
+    margin: 0;
+}
+
+/* SITE HEADER */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LOGO */
+
+.site-logo {
+    padding: var(--space-unit)
+}
+
+/* SITE NAV */
+
+.site-nav ul,
+.site-nav li {
+    margin: 0;
+    position: relative;
+    list-style: none;
+}
+
+.site-nav ul {
+    display: flex;
+}
+
+.site-nav a {
+    display: block;
+    padding: var(--space-unit)
+}
+
+/* HERO */
+
+.hero {
+    padding: var(--space-unit);
+}
+
+.hero h1 {
+    font-size: 12vw;
+    margin-bottom: 0;
+}
+
+.hero p {
+    font-size: 5vw;
+}
+
+/* FOOTER */
+
+.site-footer {
+    background-color: aqua;
+    padding: 3em var(--space-unit)
+}
+
+/* PROJECT LIST */
+
+.project-list,
+.project-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
