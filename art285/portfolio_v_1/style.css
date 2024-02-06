@@ -11,6 +11,7 @@ body {
     margin: 0;
 }
 
+
 /* GLOBAL MEDIA */
 
 img {
@@ -77,8 +78,9 @@ img {
 /* FOOTER */
 
 .site-footer {
-    background-color: aqua;
-    padding: 3em var(--space-unit)
+    background-color: black;
+    padding: 3em var(--space-unit);
+    color: aliceblue;
 }
 
 /* PROJECT LIST */
