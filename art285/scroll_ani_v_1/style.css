@@ -517,10 +517,10 @@ section {
 
                 /* animation */
                 animation: show both linear;
-                animation-timeline: var(--name);
-                animation-range: entry-crossing var(--range-start);
+                animation-timeline: view();
+                animation-range: entry 0% exit -200%;
 
-                &:nth-of-type(1) {
+                /* &:nth-of-type(1) {
                     --range-start: 10%;
                 }
 
@@ -534,7 +534,7 @@ section {
 
                 &:not(:last-of-type) {
                     margin-block-end: 2rem;
-                }
+                } */
 
                 & * {
                     margin: 0;
@@ -586,8 +586,8 @@ section {
 
                 /* animation */
                 animation: fade-right both linear;
-                animation-timeline: scroll(root);
-                animation-range: entry 5% exit 90%;
+                animation-timeline: view();
+                animation-range: entry 0 exit -75%;
             }
         }
     }
