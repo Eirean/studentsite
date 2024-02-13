@@ -52,27 +52,63 @@ img {
 
 /* HERO */
 
-.hero {
+.hero-text {
     padding: var(--space-unit);
 }
 
-.hero h1 {
+.hero-text h1 {
     font-family: "raleway";
     font-size: 5vw;
     margin-bottom: 0;
+    opacity: 0;
+    animation: slideup 2s cubic-bezier(0, 0, 0, 1) forwards;
 }
 
-.hero h2 {
+.hero-text h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3vw;
     margin-bottom: 0;
 }
 
-.hero p {
+.hero-text p {
     color: chartreuse;
     font-family: arno-pro, serif;
     font-style: normal;
     font-size: 3vw;
+}
+
+@keyframes slideup {
+    0% {
+        opacity: 0;
+        translate: 0 100%;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+.hero-text p {
+    overflow: hidden;
+}
+
+.hero-text p span {
+    opacity: 0;
+    animation: slideright 1s cubic-bezier(0, 0, 0, 1) forwards 1.5s;
+    display: block;
+}
+
+@keyframes slideright {
+    0% {
+        opacity: 0;
+        translate: -100% 0;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 0 0;
+    }
 }
 
 /* FOOTER */
