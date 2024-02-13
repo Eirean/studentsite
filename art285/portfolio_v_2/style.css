@@ -134,6 +134,10 @@ img {
     grid-template-columns: repeat(12, 12fr);
 }
 
+.project-list img {
+    display: block;
+}
+
 .project-list li:nth-child(1) {
     /* border: 10px solid red; */
     grid-column-start: 2;
