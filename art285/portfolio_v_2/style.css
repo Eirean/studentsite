@@ -1,6 +1,6 @@
 /* VARIABLES */
 html {
-    --color-body: #969292;
+    --color-body: #ffffff;
     --space-unit: 1em;
 }
 
@@ -72,6 +72,13 @@ img {
 
 .hero-text p {
     color: chartreuse;
+    font-family: arno-pro, serif;
+    font-style: normal;
+    font-size: 3vw;
+}
+
+.magazine-hero-text p {
+    color: rgb(0, 4, 255);
     font-family: arno-pro, serif;
     font-style: normal;
     font-size: 3vw;
